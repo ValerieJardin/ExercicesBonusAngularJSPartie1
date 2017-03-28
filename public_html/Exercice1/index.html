@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <title>Exercice bonus 1</title>
+    <body>
+        <!-- Directive pour définir une application AngularJS dans la div -->
+        <div ng-app="">
+            <p>Entrez une adresse mail valide :</p>
+            <p>Mail: <input type="email" ng-model="name" placeholder="name@example.ll"></p>
+            <!-- Directives hide et show ce si l'input contient une adresse mail valide -->
+            <p id="hide" ng-hide="name"></p>
+            <p id="show" ng-show="name"></p>
+        </div>
+
+    </body>
+</html>

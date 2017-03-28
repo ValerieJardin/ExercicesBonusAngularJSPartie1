@@ -1,0 +1,11 @@
+<!---->
+#hide {
+    border: 20px solid red;
+    width: 20px;
+}
+<!---->
+#show {
+    border: 20px solid greenyellow;
+    width: 20px;
+}
+
